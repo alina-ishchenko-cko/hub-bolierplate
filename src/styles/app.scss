@@ -1,0 +1,193 @@
+//@import url(~antd/dist/antd.css);
+@import url(antd.css);
+@import url(fonts.css);
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  &:before,
+  &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  font-family: 'Whitney A', 'Whitney B';
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+body {
+  background: #f7f8fa;
+  font-family: 'Whitney A', 'Whitney B'; //font-family: "Whitney SSm A", "Whitney SSm B";
+  //letter-spacing: -0.04166em; /* Only for screen smart*/
+  font-weight: 400;
+  font-size: 0.8125em;
+  /* (12px = 0.750em), (13px = 0.8125em) */
+  line-height: 1.5;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1f242f;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+a {
+  color: #4780ec;
+  background: transparent;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.cko-loading {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 20%;
+}
+
+#root,
+.app-wrap,
+.fluid-height {
+  width: 100%;
+  height: 100%;
+}
+
+body .show {
+  display: block !important;
+}
+
+body .hide {
+  display: none !important;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  width: 100%;
+  height: 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: ' ';
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.flex-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  padding: 0;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #1e242e;
+  margin-bottom: 8px;
+  display: block;
+}

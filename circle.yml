@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/checkout-v2
+    docker:
+      - image: circleci/node:8.11.1
+      - image: selenium/standalone-chrome:latest
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm'
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install-npm-cko
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: test
+          command: npm test -- --runInBand -u
+      - run:
+          name: clear test files
+          command: npm run clear-files
+      - run:
+          name: e2e-test
+          command: 'CHIMP_CI=true npm run chimp'

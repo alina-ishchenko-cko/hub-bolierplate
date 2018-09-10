@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'OCR A Extended';
+	src: url('../assets/fonts/OCRAExtended.eot');
+	src: url('../assets/fonts/OCRAExtended.eot?#iefix') format('embedded-opentype'),
+			url('../assets/fonts/OCRAExtended.woff') format('woff'),
+			url('../assets/fonts/OCRAExtended.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: "Flaticon";
+  src: url("../assets/icon-fonts/Flaticon.eot");
+  src: url("../assets/icon-fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../assets/icon-fonts/Flaticon.woff") format("woff"),
+       url("../assets/icon-fonts/Flaticon.ttf") format("truetype"),
+       url("../assets/icon-fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../assets/icon-fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: 20px;
+	font-style: normal;
+}
+
+// .flaticon-icon-tick:before { content: "\f100"; }
+// .flaticon-up-down:before { content: "\f101"; }
+// .flaticon-up-chevron:before { content: "\f102"; }
+// .flaticon-down-chevron:before { content: "\f103"; }
+// .flaticon-right-chevron:before { content: "\f104"; }
+// .flaticon-left-arrow-chevron:before { content: "\f105"; }
+.flaticon-icon-right-arrow:before { content: "\f100"; }
+.flaticon-icon-tick:before { content: "\f101"; }
+.flaticon-up-down:before { content: "\f102"; }
+.flaticon-up-chevron:before { content: "\f103"; }
+.flaticon-down-chevron:before { content: "\f104"; }
+.flaticon-right-chevron:before { content: "\f105"; }
+.flaticon-left-arrow-chevron:before { content: "\f106"; }

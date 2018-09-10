@@ -1,0 +1,8 @@
+{
+    "tests": [
+        {
+            "url": "https://www.getpostman.com/collections/1bc99f58473d3d6cbade",
+            "environment": "TEST.automation.postman_environment.json"
+        }
+    ]
+}

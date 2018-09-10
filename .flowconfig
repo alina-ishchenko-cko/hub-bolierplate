@@ -1,0 +1,19 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/src/__tests__/.*
+<PROJECT_ROOT>/src/__mocks__/.*
+<PROJECT_ROOT>/test/.*
+<PROJECT_ROOT>/src/assets/*.json
+
+[include]
+
+[libs]
+<PROJECT_ROOT>/flow-typed
+
+[lints]
+
+[options]
+module.name_mapper='^\(.*\)$' -> '<PROJECT_ROOT>/src/\1/'
+module.name_mapper='^\(.*\)/\(.*\)$' -> '<PROJECT_ROOT>/src/\1/\2'
+
+[strict]

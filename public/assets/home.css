@@ -1,0 +1,29 @@
+.main-loading-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-loading-container:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: #b7ddf2 3px solid;
+    border-top: transparent 3px solid;
+    border-radius: 30px;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

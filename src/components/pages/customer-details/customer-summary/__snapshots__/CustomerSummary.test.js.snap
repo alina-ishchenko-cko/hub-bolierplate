@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer Summary renders correctly 1`] = `
+.css-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(121,131,149,0.2);
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.css-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+  position: relative;
+  padding: 20px;
+  color: #1e242e;
+  font-size: 1.1538461538461537em;
+  box-shadow: 0 1px 3px 0 rgba(121,131,149,0.2);
+}
+
+.css-2 {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  padding: 25px 30px;
+  color: #464f60;
+}
+
+.css-2 label {
+  color: #798395;
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.css-2 p {
+  font-size: 1.0769230769230769em;
+}
+
+.css-2 address {
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.css-2 .ocr-font {
+  color: #464f60;
+  font-family: 'OCR A Extended';
+}
+
+.css-2 .cko-flag {
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(121,131,149,0.2);
+  width: 17px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.css-2 .cko-scheme {
+  width: 26px;
+  margin-right: 5px;
+}
+
+.css-2 .text-capitalize {
+  text-transform: capitalize;
+}
+
+.css-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+}
+
+.css-4 {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  margin-right: 25px;
+}
+
+.css-4 .summary-value {
+  line-height: 1;
+  color: #366BCF;
+  font-size: 3.076923076923077em;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.css-4 .summary-value-title {
+  color: #798395;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.css-4 .summary-value-description {
+  color: #ADB0B8;
+  white-space: nowrap;
+}
+
+.css-4 .summary-value-units {
+  font-size: 1.2307692307692308em;
+  color: #798395;
+}
+
+.css-4 .summary-value-title-container {
+  margin-top: 15px;
+}
+
+<div
+  className="cko-flex-column content-wrap  css-0"
+>
+  <div
+    className="cko-flex-row css-1"
+  >
+    <p>
+      Summary
+    </p>
+  </div>
+  <div
+    className="cko-flex-item css-2"
+  >
+    <div
+      className="cko-flex-row  css-3"
+    >
+      <div
+        className="cko-flex-item css-4"
+        size={undefined}
+      >
+        <span
+          className="summary-value"
+        >
+          5
+        </span>
+        <span
+          className="summary-value-units"
+        >
+          USD
+        </span>
+        <div
+          className="summary-value-title-container"
+        >
+          <div
+            className="summary-value-title"
+          >
+            Life time value
+          </div>
+          <div
+            className="summary-value-description"
+          >
+            Sum of captured transactions
+          </div>
+        </div>
+      </div>
+      <div
+        className="cko-flex-item css-4"
+        size={undefined}
+      >
+        <span
+          className="summary-value"
+        >
+          6
+        </span>
+        <span
+          className="summary-value-units"
+        />
+        <div
+          className="summary-value-title-container"
+        >
+          <div
+            className="summary-value-title"
+          >
+            Order history
+          </div>
+          <div
+            className="summary-value-description"
+          >
+            Number of orders placed so far
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

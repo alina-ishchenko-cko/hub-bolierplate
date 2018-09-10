@@ -1,0 +1,9 @@
+{
+    "merchantUsername": "qa_email+write@checkout.com",
+    "adminUsername": "qa_email@checkout.com",
+    "merchantReadOnly": "qa_email+read@checkout.com",
+    "password" : "Checkout_123",
+    "merchantName" : "TestMerchant",
+    "businessName" : "TestAir",
+    "BusinessName" : "TTestAir"
+}

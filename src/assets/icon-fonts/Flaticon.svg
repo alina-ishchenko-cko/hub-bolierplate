@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2018-1-30: Created with FontForge (http://fontforge.org)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20160405 at Tue Jan 30 17:05:16 2018
+ By Apache
+Copyright (c) 2018, Apache
+</metadata>
+<defs>
+<font id="Flaticon" horiz-adv-x="512" >
+  <font-face 
+    font-family="Flaticon"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="-224 -448 736 832"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+0020-F106"
+  />
+    <missing-glyph />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
+ />
+    <glyph glyph-name="uniF104" unicode="&#xf104;" 
+d="M485.386 332.934l26.6143 -26.7012l-256.001 -255.166l-255.999 255.166l26.6143 26.7012l229.385 -228.639z" />
+    <glyph glyph-name="uniF102" unicode="&#xf102;" 
+d="M736 -3.2002l-384 -356.267v0l-96 -88.5332l-480 444.8l96 88.5332l384 -355.199l384 355.199zM-224 387.2l384 356.267v0l96 88.5332l480 -444.8l-96 -88.5332l-384 355.199l-384 -355.199z" />
+    <glyph glyph-name="uniF105" unicode="&#xf105;" 
+d="M141.767 448l255.167 -256l-255.167 -256l-26.7012 26.6133l228.641 229.387l-228.641 229.387z" />
+    <glyph glyph-name="uniF103" unicode="&#xf103;" 
+d="M256 332.934l256 -255.166l-26.6133 -26.7012l-229.387 228.64l-229.386 -228.64l-26.6143 26.7012z" />
+    <glyph glyph-name="uniF101" unicode="&#xf101;" 
+d="M416 264l-199.04 -200l-55.6797 56.3203v0l-65.2803 65.9199l56 56l65.2803 -65.6006l142.72 143.36z" />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" 
+d="M64 176v32h352v-32h-352zM314.56 336l106.881 -115.2v0l26.5596 -28.7998l-133.44 -144l-26.5596 28.7998l106.56 115.2l-106.56 115.2z" />
+    <glyph glyph-name="uniF106" unicode="&#xf106;" 
+d="M404.448 413.691l-228.213 -221.684l228.213 -221.692l-33.3301 -34.3154l-263.565 256.008l263.565 255.992z" />
+  </font>
+</defs></svg>

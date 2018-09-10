@@ -1,0 +1,6 @@
+{
+	"src/**/*.{js,jsx,json}": [
+		"prettier --config ./config/prettier.config.js --write",
+		"git add"
+	]
+}

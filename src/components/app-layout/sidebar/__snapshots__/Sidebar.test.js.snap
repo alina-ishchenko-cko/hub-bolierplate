@@ -1,0 +1,661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly 1`] = `
+.css-0 {
+  background: transparent;
+  height: 100vh;
+  position: fixed;
+  z-index: 9;
+}
+
+.css-0 .inner-sider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.css-0 .collapse-btn {
+  border: none;
+  width: 90%;
+  display: none;
+  margin: 30px auto;
+  border-radius: 3px;
+  line-height: 30px;
+  background: rgba(186,192,206,0.25);
+}
+
+.css-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+}
+
+.css-2 {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.css-3 {
+  text-align: center;
+  width: 100%;
+  margin-top: 0.4375rem;
+  margin-bottom: 1.25rem;
+}
+
+.css-3 .cko-icon {
+  width: 35px;
+}
+
+.css-4 {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: none;
+  line-height: 1px;
+  width: auto;
+  border-radius: 3px;
+}
+
+.css-4.placeholder {
+  background-color: #dfe1ea;
+}
+
+.css-4 svg {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100%;
+}
+
+.css-4 .white {
+  fill: #fff;
+}
+
+.css-4 .dark {
+  fill: #8b94a9;
+}
+
+.css-4 .light {
+  fill: #bac0ce;
+}
+
+.css-4 .dark,
+.css-4 .light,
+.css-4 .dark,
+.css-4 .grey {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.css-4 .icon-sidebar-transactions .dark,
+.css-4 .icon-sidebar-dashboard .dark {
+  fill: #8b94a9;
+}
+
+.css-4 .icon-sidebar-transactions .light,
+.css-4 .icon-sidebar-dashboard .light {
+  fill: #bac0ce;
+}
+
+.css-4 .icon-sidebar-plans .grey {
+  fill: #fff;
+}
+
+.css-4 .icon-calendar * {
+  fill: #ACB2BF;
+}
+
+.css-4 .icon-right-arrow *,
+.css-4 .icon-left-arrow *,
+.css-4 .icon-down-arrow * {
+  fill: #abb3c4;
+}
+
+.css-4 .icon-paypal-full * {
+  fill: #2464b4;
+}
+
+.css-6 {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.8461538461538461em;
+  z-index: 8;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.css-6.list-active .selected-business {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.css-6.list-active .channel-wrap {
+  display: block;
+}
+
+.css-6 .selected-business i {
+  display: block;
+}
+
+.css-8 {
+  width: 100%;
+  overflow: hidden;
+  font-weight: 500;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+  box-shadow: 0px 2px 5px 0px rgba(121,131,149,0.2);
+}
+
+.css-8 .parent-title {
+  display: block;
+  text-transform: uppercase;
+  color: #ADB0B8;
+  font-size: 0.7692307692307693em;
+  padding: 0;
+  margin: 0;
+  width: 86%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 15px;
+  white-space: nowrap;
+}
+
+.css-8 .child-title {
+  color: #1E242E;
+  font-size: 1.2307692307692308em;
+  width: 86%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.css-8 i {
+  position: absolute;
+  font-style: normal;
+  top: 25px;
+  right: 20px;
+  color: #798395;
+}
+
+.css-8 i:before {
+  font-family: Flaticon;
+  content: '\\f104';
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.css-9 {
+  width: 100%;
+  margin: 5% auto;
+}
+
+.css-9 .dots {
+  width: 100%;
+}
+
+.css-9 .dots > div {
+  background-color: #ADB0B8;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+  display: inline-block;
+  -webkit-animation: animation-mu3yif 0.7s 0s infinite linear;
+  -webkit-animation: animation-mu3yif 0.7s 0s infinite linear;
+  animation: animation-mu3yif 0.7s 0s infinite linear;
+}
+
+.css-9 .dots > div:nth-child(2n-1) {
+  -webkit-animation-delay: -0.35s;
+  -webkit-animation-delay: -0.35s;
+  animation-delay: -0.35s;
+}
+
+.css-10 {
+  border: none;
+  background: transparent;
+  position: relative;
+}
+
+.css-10 .overlay {
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.css-10 .menu-list {
+  margin: 0;
+  padding: 0;
+}
+
+.css-10 .menu-list.disable {
+  opacity: 0.3;
+}
+
+.css-10 .menu-item {
+  margin: 0;
+  height: 46px;
+  line-height: 46px;
+  color: #798395;
+}
+
+.css-10 .menu-item .cko-icon {
+  max-width: 18px;
+  max-height: 16px;
+}
+
+.css-10 .menu-item a {
+  font-weight: 400;
+  color: #798395;
+  display: inline-block;
+}
+
+.css-10 .menu-item.active-menu a,
+.css-10 .menu-item a:hover,
+.css-10 .menu-item:hover {
+  color: #3A6FD2;
+}
+
+.css-10 .menu-item.active-menu .cko-icon svg .dark {
+  fill: #5b91e3;
+}
+
+.css-10 .menu-item.active-menu .cko-icon svg .light {
+  fill: #a1c6ff;
+}
+
+.css-10 .menu-item:hover .cko-icon svg .dark {
+  fill: #464f60;
+}
+
+.css-10 .menu-item:hover .cko-icon svg .light {
+  fill: #b2b8c6;
+}
+
+.css-10 .menu-item span {
+  vertical-align: middle;
+  font-size: 1.0769230769230769em;
+}
+
+.css-10 .menu-item .cko-icon {
+  font-size: 1.2692307692307692em;
+}
+
+.css-10 .logout {
+  cursor: pointer;
+}
+
+.css-10 .side-info {
+  margin-top: 1.25rem;
+  margin-bottom: 0.625rem;
+  padding: 0 0 0 1.25rem;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
+
+.css-10 .side-info p {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.css-10 .side-info .title {
+  font-size: 0.7692307692307693em;
+  text-transform: uppercase;
+  color: #ADB0B8;
+}
+
+.css-10 .side-info .username {
+  font-size: 1.0769230769230769em;
+  color: #464F60;
+}
+
+.css-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+}
+
+.css-12 {
+  padding: 0;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.css-13 {
+  margin: 0;
+  font-weight: 400;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: 3px;
+  text-align: center;
+  border: solid 1px transparent;
+  padding: 0 1.25rem;
+  font-size: 1em;
+  line-height: 42px;
+  width: auto;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(to top,#4179e4,#4780ec);
+  box-shadow: 0 1px 3px 0 rgba(58,128,232,0.45);
+}
+
+.css-13 .cko-icon svg * {
+  fill: #fff;
+}
+
+.css-13:hover {
+  background: linear-gradient(to top,#5993ff,#558ffa);
+  box-shadow: 0 2px 5px 0 rgba(58,128,232,0.45);
+}
+
+.css-13:active,
+.css-13:focus {
+  background: linear-gradient(to bottom,#4179e4,#4780ec);
+  box-shadow: inset 0 2px 5px 0 rgba(44,91,179,0.45);
+}
+
+.css-13 .cko-icon {
+  margin-right: 15px;
+}
+
+.css-17 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1.25rem;
+  padding-bottom: 2px;
+  margin-bottom: 1px;
+}
+
+.css-17 a {
+  font-size: 0.9230769230769231em;
+  display: block;
+  color: #ADB0B8;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width:1700px) {
+  .css-0 .open-trigger {
+    display: block;
+  }
+}
+
+@media only screen and (min-width:1700px) {
+  .css-0 .close-trigger {
+    display: block;
+  }
+}
+
+<aside
+  className="sidebar-menu css-0"
+  id="sidebar"
+>
+  <div
+    className="cko-flex-column inner-sider css-1"
+  >
+    <div
+      className="cko-flex-item  css-2"
+    >
+      <div
+        className="menu-logo css-3"
+      >
+        <span
+          className="cko-icon  css-4"
+        >
+          <span
+            src="/assets/svgs/logo.svg"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="cko-flex-item  css-2"
+    >
+      <div
+        className="account-selector"
+      >
+        <div
+          className="css-6"
+          id="accountSelect"
+        >
+          <div
+            className="selected-business css-8"
+            onClick={[Function]}
+          >
+            <div
+              className="cko-app-loading text-center css-9"
+              size={undefined}
+            >
+              <div
+                className="dots"
+              >
+                <div />
+                <div />
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="cko-flex-item  css-2"
+    >
+      <div
+        className="css-10"
+      >
+        <ul
+          className="menu-list"
+        >
+          <li
+            className="side-info"
+          >
+            <p
+              className="title"
+            >
+              Account configurations
+            </p>
+            <p
+              className="username"
+            >
+              
+            </p>
+          </li>
+          <li
+            className="menu-item"
+          >
+            <a
+              href="/settings"
+              id="settings-link"
+              onClick={[Function]}
+            >
+              <span
+                className="cko-icon  css-4"
+              >
+                <span
+                  src="/assets/svgs/sidebar-settings.svg"
+                />
+              </span>
+              <span
+                className="menu-title"
+              >
+                Settings
+              </span>
+            </a>
+          </li>
+          <li
+            className="menu-item logout"
+          >
+            <a
+              href="/login"
+              id="logout-link"
+              onClick={[Function]}
+            >
+              <span
+                className="cko-icon  css-4"
+              >
+                <span
+                  src="/assets/svgs/sidebar-logout.svg"
+                />
+              </span>
+              <span
+                className="menu-title"
+              >
+                Log out
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button
+        className="collapse-btn open-trigger"
+        onClick={[Function]}
+      >
+        <span
+          className="cko-icon  css-4"
+        >
+          <span
+            src="/assets/svgs/right.svg"
+          />
+        </span>
+      </button>
+      <button
+        className="collapse-btn close-trigger"
+        onClick={[Function]}
+      >
+        <span
+          className="cko-icon  css-4"
+        >
+          <span
+            src="/assets/svgs/left.svg"
+          />
+        </span>
+      </button>
+    </div>
+    <div
+      className="cko-flex-column  css-11"
+    >
+      <div
+        className="cko-flex-item  css-2"
+      >
+        <div
+          className="menu-footer css-12"
+        >
+          <button
+            className="cko-button  css-13"
+            onClick={[Function]}
+            size="large"
+            type="primary"
+            value="Docs"
+          >
+            <span
+              className="value"
+            >
+              Docs
+            </span>
+          </button>
+          <div
+            className="footer-about css-17"
+          >
+            <a
+              target="_blank"
+            >
+              About Checkout
+            </a>
+            <a
+              target="_blank"
+            >
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+`;

@@ -1,0 +1,33 @@
+{
+	"plugins": [
+		"react"
+	],
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"globals": {
+		"expect": true,
+		"shallow": true,
+		"mount": true,
+		"render": true,
+		"moxios": true,
+		"thunk": true,
+		"describe": true,
+		"configureMockStore": true
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true,
+		"mocha": true
+	},
+	"extends": [
+		"react-app",
+		"eslint:recommended",
+		"plugin:react/recommended"
+	]
+}

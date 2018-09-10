@@ -1,0 +1,6 @@
+node_modules
+npm-debug.log
+/bin
+app/src/**/*.js
+.DS_Store
+.screenshots/*.png

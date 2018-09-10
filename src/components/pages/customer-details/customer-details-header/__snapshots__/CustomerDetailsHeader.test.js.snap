@@ -1,0 +1,495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer Details Header renders correctly 1`] = `
+.css-0 {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.css-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+}
+
+.css-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+  padding: 1.875rem;
+}
+
+.css-2 .customer-name {
+  line-height: 1;
+  color: #366BCF;
+  font-size: 3.5384615384615383em;
+}
+
+.css-2 .actions {
+  text-align: right;
+}
+
+.css-3 {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.css-4 {
+  margin: 0;
+  font-weight: 400;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: 3px;
+  text-align: center;
+  border: solid 1px transparent;
+  padding: 0 1.25rem;
+  font-size: 1em;
+  line-height: 42px;
+  width: auto;
+  cursor: pointer;
+  color: #366bcf;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0 rgba(121,131,149,0.15);
+  border-color: #dfe1ea;
+}
+
+.css-4 .cko-icon svg * {
+  fill: #366bcf;
+}
+
+.css-4:hover {
+  box-shadow: 0px 2px 5px 0 rgba(121,131,149,0.25);
+  border-color: #4780ec;
+}
+
+.css-4:active {
+  background-color: #f5f8ff;
+  box-shadow: inset 0px 2px 5px 0 rgba(121,131,149,0.2);
+  border-color: #4780ec;
+}
+
+.css-4:focus {
+  outline: none;
+}
+
+.css-4 .cko-icon {
+  margin-right: 15px;
+}
+
+.css-8 {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: none;
+  line-height: 1px;
+  width: auto;
+  border-radius: 3px;
+}
+
+.css-8.placeholder {
+  background-color: #dfe1ea;
+}
+
+.css-8 svg {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100%;
+}
+
+.css-8 .white {
+  fill: #fff;
+}
+
+.css-8 .dark {
+  fill: #8b94a9;
+}
+
+.css-8 .light {
+  fill: #bac0ce;
+}
+
+.css-8 .dark,
+.css-8 .light,
+.css-8 .dark,
+.css-8 .grey {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.css-8 .icon-sidebar-transactions .dark,
+.css-8 .icon-sidebar-dashboard .dark {
+  fill: #8b94a9;
+}
+
+.css-8 .icon-sidebar-transactions .light,
+.css-8 .icon-sidebar-dashboard .light {
+  fill: #bac0ce;
+}
+
+.css-8 .icon-sidebar-plans .grey {
+  fill: #fff;
+}
+
+.css-8 .icon-calendar * {
+  fill: #ACB2BF;
+}
+
+.css-8 .icon-right-arrow *,
+.css-8 .icon-left-arrow *,
+.css-8 .icon-down-arrow * {
+  fill: #abb3c4;
+}
+
+.css-8 .icon-paypal-full * {
+  fill: #2464b4;
+}
+
+.css-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+  color: #798395;
+  padding-left: 30px;
+}
+
+.css-10 .customer-info-column {
+  margin-right: 50px;
+}
+
+.css-10 .email-icon {
+  margin-right: 3px;
+}
+
+.css-10 .date-icon {
+  margin-right: 6px;
+}
+
+.css-10 .phone-icon {
+  margin-right: 6px;
+}
+
+.css-10 .id-icon {
+  margin-right: 6px;
+}
+
+.css-10 .id-text {
+  margin-right: 10px;
+}
+
+.css-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+}
+
+.css-12 {
+  margin: 0;
+  font-weight: 400;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: 3px;
+  text-align: center;
+  border: solid 1px transparent;
+  padding: 0 0.625rem;
+  font-size: 0.9230769230769231em;
+  line-height: 26px;
+  width: auto;
+  cursor: pointer;
+  color: #366bcf;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0 rgba(121,131,149,0.15);
+  border-color: #dfe1ea;
+}
+
+.css-12 .cko-icon svg * {
+  fill: #366bcf;
+}
+
+.css-12:hover {
+  box-shadow: 0px 2px 5px 0 rgba(121,131,149,0.25);
+  border-color: #4780ec;
+}
+
+.css-12:active {
+  background-color: #f5f8ff;
+  box-shadow: inset 0px 2px 5px 0 rgba(121,131,149,0.2);
+  border-color: #4780ec;
+}
+
+.css-12:focus {
+  outline: none;
+}
+
+.css-12 .cko-icon {
+  margin-right: 10px;
+}
+
+<div
+  className="customer-details-header css-0"
+>
+  <div
+    className="cko-flex-column  css-1"
+  >
+    <div
+      className="cko-flex-row css-2"
+    >
+      <div
+        className="cko-flex-item customer-name css-3"
+      >
+        Alice
+      </div>
+      <div
+        className="cko-flex-item actions css-3"
+      >
+        <button
+          className="cko-button edit-details-btn css-4"
+          onClick={[Function]}
+          size="large"
+          value="Edit"
+        >
+          <span
+            className="cko-icon  css-8"
+          >
+            <span
+              src="/assets/svgs/edit.svg"
+            />
+          </span>
+          <span
+            className="value"
+          >
+            Edit
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="cko-flex-row css-10"
+    >
+      <div
+        className="cko-flex-column customer-info-column css-11"
+      >
+        <div
+          className="cko-flex-item email css-3"
+        >
+          <span
+            className="cko-icon email-icon css-8"
+          >
+            <span
+              src="/assets/svgs/email.svg"
+            />
+          </span>
+          <span>
+             
+            a@a.com
+          </span>
+        </div>
+        <div
+          className="cko-flex-item create-date css-3"
+        >
+          <span
+            className="cko-icon date-icon css-8"
+          >
+            <span
+              src="/assets/svgs/date.svg"
+            />
+          </span>
+          <span>
+            17/04/2018 13:51:49
+          </span>
+        </div>
+      </div>
+      <div
+        className="cko-flex-column customer-info-column css-11"
+      >
+        <div
+          className="cko-flex-item phone css-3"
+        >
+          <span
+            className="cko-icon phone-icon css-8"
+          >
+            <span
+              src="/assets/svgs/phone.svg"
+            />
+          </span>
+          <span>
+            N/A
+          </span>
+        </div>
+        <div
+          className="cko-flex-item plan-id css-3"
+        >
+          <span
+            className="cko-icon id-icon css-8"
+          >
+            <span
+              src="/assets/svgs/id.svg"
+            />
+          </span>
+          <span
+            className="id-text"
+          >
+            plan_1
+          </span>
+          <button
+            className="cko-button  css-12"
+            onClick={[Function]}
+            size="small"
+            value="Copy"
+          >
+            <span
+              className="value"
+            >
+              Copy
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

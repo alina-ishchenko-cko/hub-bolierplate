@@ -1,0 +1,29 @@
+{
+	"presets": [
+		"env",
+		"react",
+		"stage-2"
+	],
+	"plugins": [
+		"transform-class-properties"
+	],
+	"env": {
+		"test": {
+			"presets": [
+				"react",
+				[
+					"env",
+					{
+						"modules": "commonjs"
+					}
+				],
+				"stage-2"
+			],
+			"plugins": [
+				"transform-es2015-modules-commonjs",
+				"react-loadable/babel",
+				"dynamic-import-node"
+			]
+		}
+	}
+}
